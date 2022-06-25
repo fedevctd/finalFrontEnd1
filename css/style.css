@@ -34,7 +34,6 @@ html{                     /*declaro el font-size en todo el html para ganar acce
 body{
     font-family: 'Be Vietnam Pro', sans-serif;
     /*declaro que las familias de fuente sean Be Vietnam Pro y sans-seriff por si no puede acceder a la fuente online*/
-
 }
 
 /* empiezo diseñando el mobile-first */
@@ -60,21 +59,18 @@ body header .getstarted{
     border-radius: 5rem;
     box-shadow: var(--sombra-1);
     color: var(--color-7);
-    /* display: inline-block; */
-    padding: 1.25rem 3.05rem;
     font-weight: 500;
     font-size: 1.3rem;
     line-height: 1.9rem;
+    padding: 1.25rem 3.05rem;
 }
 
-
-
 .menu-nav ul{
-    list-style: none;
+    align-items: center;
     display: flex;
     flex-flow: row wrap;
-    align-items: center;
     gap: 2.8rem;
+    list-style: none;
 }
 
 .menu-nav ul li a{
@@ -91,25 +87,24 @@ body header .getstarted{
 
 .presentation{
     display: flex;
-    justify-content: flex-start;
     flex-flow: column wrap;
-    padding: 0px 10vw;
     gap: 2rem;
+    justify-content: flex-start;
     margin-bottom: 10rem;
+    padding: 0px 10vw;
 }
 
 .box-izquierda{
+    align-items: flex-start;
     display: flex;
     flex-flow: column wrap;
     width: 100%;
-    align-items: flex-start;
-    
 }
 
 .box-izquierda h2{
     color: var(--color-3);
-    font-weight: 700;
     font-size: 3.5rem;
+    font-weight: 700;
     line-height: 4rem;
     text-align: center;
 }
@@ -129,8 +124,8 @@ body header .getstarted{
 }
 
 .box-derecha{
-    width: 100%;
     align-items: center;
+    width: 100%;
 }
 
 .box-derecha img{
@@ -139,17 +134,17 @@ body header .getstarted{
 
 .description{
     display: flex;
-    justify-content: flex-start;
     flex-flow: column wrap;
-    padding: 0px 10vw;
     gap: 2rem;
+    justify-content: flex-start;
     margin-bottom: 5rem;
+    padding: 0px 10vw;
 }
 
 .box-izquierda2 h3{
     color: var(--color-3);
-    font-weight: 700;
     font-size: 3rem;
+    font-weight: 700;
     line-height: 3.5rem;
     text-align: center;
 }
@@ -173,13 +168,13 @@ body header .getstarted{
 .list .num{
     background-color: var(--color-2);
     border-radius: 3rem;
+    box-shadow: var(--sombra-1);
     color: var(--color-7);
+    display: inline-block;
     font-size: 1.3rem;
     font-weight: 700;
     line-height: 1.7rem;
     padding: 0.5rem 1.5rem;
-    display: inline-block;
-    box-shadow: var(--sombra-1);
 }
 
 .list .header{
@@ -194,8 +189,8 @@ body header .getstarted{
 .header h4{
     color: var(--color-3);
     display: inline-block;
-    font-weight: 700;
     font-size: 1.4rem;
+    font-weight: 700;
     line-height: 2.3rem;
     margin-left: 1rem;
 }
@@ -245,8 +240,8 @@ body header .getstarted{
 
 .opinions .cont-opinions .card-opinions p{
     color: var(--color-5);
-    font-weight: 500;
     font-size: 1.6rem;
+    font-weight: 500;
     line-height: 2.5rem;
     margin: 0rem 2.1rem 3.8rem;
     text-align: center;
@@ -258,9 +253,9 @@ body header .getstarted{
     background-size: contain;
     border-radius: 50%;
     height: 7rem;
+    left: 13.3rem;
     position: absolute;
     top: -3.5rem;
-    left: 13.3rem;
     width: 7rem;
 }
 
@@ -270,9 +265,9 @@ body header .getstarted{
     background-size: contain;
     border-radius: 50%;
     height: 7rem;
+    left: 13.3rem;
     position: absolute;
     top: -3.5rem;
-    left: 13.3rem;
     width: 7rem;
 }
 
@@ -282,9 +277,9 @@ body header .getstarted{
     background-size: contain;
     border-radius: 50%;
     height: 7rem;
+    left: 13.3rem;
     position: absolute;
     top: -3.5rem;
-    left: 13.3rem;
     width: 7rem;
 }
 
@@ -306,18 +301,15 @@ body header .getstarted{
     margin-top: 2rem;
 }
 
-
-
 .getstarted2{
     background-color: var(--color-7);
     border-radius: 5rem;
     box-shadow: var(--sombra-2);
     color: var(--color-2);
-    /* display: inline-block; */
-    padding: 1.25rem 3.05rem;
-    font-weight: 500;
     font-size: 1.3rem;
+    font-weight: 500;
     line-height: 1.9rem;
+    padding: 1.25rem 3.05rem;
 }
 
 .main-end{
@@ -329,12 +321,12 @@ body header .getstarted{
 }
 
 .main-end .text-cont h4{
-    font-weight: 700;
-    font-size: 3rem;
-    line-height: 3.7rem;
     color: var(--color-7);
-    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 3.7rem;
     margin-bottom: 4rem;
+    text-align: center;
 }
 
 footer{
@@ -350,28 +342,28 @@ footer{
 footer .footer-nav{
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-around;
     gap: 5rem;
+    justify-content: space-around;
 }
 
 footer ul{
-    list-style: none;
     font-size: 1.6rem;
     line-height: 3.5rem;
+    list-style: none;
 }
 
 footer a{
+    color: var(--color-7);
     font-weight: 300;
     text-decoration: none;
-    color: var(--color-7);
 }
 
 .social-media{
     display: flex;
     flex-flow: row wrap;
     font-size: 2.5rem;
-    justify-content: space-around;
     gap: 4rem;
+    justify-content: space-around;
 }
 
 form input{
@@ -408,6 +400,7 @@ footer p{
 
 .getstarted:hover{
     opacity: 0.5;
+    transform: scale(1.1);
 }
 
 .getstarted:active{
@@ -418,6 +411,7 @@ footer p{
 .getstarted2:hover{
     background-color: var(--color-3);
     color: var(--color-7);
+    transform: scale(1.1);
 
 }
 
@@ -430,6 +424,7 @@ form button:hover{
     background-color: var(--color-8);
     box-shadow: var(--sombra-2);
     color: var(--color-2);
+    transform: scale(1.1);
 }
 
 form button:active{
@@ -471,16 +466,16 @@ ya que sirve para la separacion requerida en el trabajo
         width: 100%;
     }
     .box-izquierda h2{
-        text-align: left; 
         font-size: 5.8rem;
         line-height: 6.6rem;
+        text-align: left; 
     }
     .box-izquierda p{
         color: var(--color-4);
         font-size: 1.6rem;
         line-height: 2.6rem;
-        text-align: left;
         margin-right: 8.6rem; 
+        text-align: left;
     }
     .box-izquierda div{
         margin: 0;
@@ -537,7 +532,6 @@ ya que sirve para la separacion requerida en el trabajo
     footer .footer-nav{
         gap: 15rem;
     }
-    
     /* declaro que dentro del media querie haya una pseudoclase para agregarle dinamismo al sitio */
     .header h4:hover{     
         background-color: var(--color-2);
@@ -546,10 +540,10 @@ ya que sirve para la separacion requerida en el trabajo
         padding: 1rem 2.5rem;
     }
     .opinions{
-        flex-flow: row wrap;
         align-items: center;
-        width: 100%;
+        flex-flow: row wrap;
         margin: 0 auto;
+        width: 100%;
     }
     .box-derecha2 p{
         margin-left: 9rem;
@@ -581,26 +575,22 @@ ya que sirve para la separacion requerida en el trabajo
         justify-content: space-between;
         padding: 9rem 16.5rem;
     }
-
     .main-end .text-cont{
         width: 33vw;
     }
-
     .main-end .text-cont h4{
-        text-align: left;
         font-size: 4rem;
         line-height: 4.8rem;
         margin-bottom: 0rem;
+        text-align: left;
     }
-
     footer{
         align-items: flex-start;
         flex-flow: row wrap;
-        padding: 5rem 16rem;
-        justify-content: space-between;
         gap: 0rem;
+        justify-content: space-between;
+        padding: 5rem 16rem;
     }
-
     .logo-redes{
         align-items: flex-start;
         display: flex;
@@ -612,20 +602,22 @@ ya que sirve para la separacion requerida en el trabajo
         gap: 2rem;
     }
 
+    /* añado una animacion para cuando en el desktop pasen por encima de los iconos de las redes sociales */
+
+    .social-media a:hover{
+        transform: scale(1.5);
+    }
     footer form{
         order: 1;
     }
-
     footer p{
-        width: 100%;
         order: 2;
         text-align: right;
+        width: 100%;
     }
     form button{
         margin-left: 2rem;
     }
-
-
     
 }
 
