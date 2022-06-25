@@ -343,7 +343,7 @@ footer{
     color: var(--color-7);
     display: flex;
     flex-flow: column wrap;
-    gap: 4rem;
+    gap: 4.5rem;
     padding: 4rem 2rem;
 }
 
@@ -374,6 +374,35 @@ footer a{
     gap: 4rem;
 }
 
+form input{
+    border-radius: 5rem;
+    font-size: 1.3rem;
+    height: 4.4rem ;
+    padding: 1rem;
+    width: 20rem;
+}
+
+form button{
+    background-color: var(--color-2);
+    border-radius: 5rem;
+    box-shadow: var(--sombra-1);
+    color: var(--color-7);
+    font-size: 1.3rem;
+    height: 4.4rem ;
+    margin-left: 1rem;
+    padding: 1rem 2rem;
+}
+
+.logo-redes{
+    align-items: center;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 4.5rem;
+}
+footer p{
+    color: var(--color-5);
+}
+
 
 /* agrego pseudoclases para aumentar la interactividad del sitio */
 
@@ -395,6 +424,22 @@ footer a{
 .getstarted2:active{
     background-color: var(--);
     opacity: 0.8;
+}
+
+form button:hover{
+    background-color: var(--color-8);
+    box-shadow: var(--sombra-2);
+    color: var(--color-2);
+}
+
+form button:active{
+    background-color: var(--color-8);
+    box-shadow: var(--sombra-2);
+    color: var(--color-2);
+    opacity: 0.6;
+}
+footer a:hover{
+    color: var(--color-5);
 }
 
 
@@ -489,6 +534,9 @@ ya que sirve para la separacion requerida en el trabajo
         line-height: 2.3rem;
         margin-left: 2.3rem;
     }
+    footer .footer-nav{
+        gap: 15rem;
+    }
     
     /* declaro que dentro del media querie haya una pseudoclase para agregarle dinamismo al sitio */
     .header h4:hover{     
@@ -546,10 +594,38 @@ ya que sirve para la separacion requerida en el trabajo
     }
 
     footer{
-        align-items: center;
+        align-items: flex-start;
         flex-flow: row wrap;
         padding: 5rem 16rem;
+        justify-content: space-between;
+        gap: 0rem;
     }
+
+    .logo-redes{
+        align-items: flex-start;
+        display: flex;
+        flex-flow: column-reverse wrap;
+        gap: 8rem;
+        order: -1;
+    }
+    .social-media{
+        gap: 2rem;
+    }
+
+    footer form{
+        order: 1;
+    }
+
+    footer p{
+        width: 100%;
+        order: 2;
+        text-align: right;
+    }
+    form button{
+        margin-left: 2rem;
+    }
+
+
     
 }
 
